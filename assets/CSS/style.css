@@ -1,0 +1,23 @@
+.bgimage {
+height: 100px;
+background:navy ;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.hero_desc {
+    font-size: 10px;
+}
+
+.hero_title {
+    font-size: 15px;
+}
