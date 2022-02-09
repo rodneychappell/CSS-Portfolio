@@ -12,10 +12,20 @@
   </head>
 
   <body>
-      <!--Navbar-->
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
       <div class="container">
-        <h1><a class="navbar-brand" href="#">Rodney Chappell</a></h1>
+        <a class="navbar-brand" href="#">Rodney Chappell</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
@@ -28,27 +38,105 @@
               <a href="#contact" class="nav-link">Contact Me</a>
             </li>
           </ul>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
         </div>
       </div>
     </nav>
-    
+
+
+    <!--Main Banner-->
     <section class="bgimage" id="home">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 hero-text">
+            <h2 class="hero_title">Hello, I'm Rodney</h2>
+            <p class="hero_desc">
+              I am a Web Developer & Designer in South Florida
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<br>
+
+    <!--About Me section-->
+    <section id="about">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me</h1>
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="" class="imageaboutpage" alt="" />
+          </div>
+          <div class="col-lg-8">
+            <p>Starting his journey as a Coder/Web designer.</p>
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <ul>
+                  <li>Name: Rodney Chappell</li>
+                  <li>Age: 25</li>
+                  <li>Occupation: Web Developer</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li>Name: Rodney Chappell</li>
+                  <li>Age: 25</li>
+                  <li>Occupation: Web Developer</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <p>
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<br>
+
+    <!--Services section-->
+    <section id="Services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
             <div class="row">
-                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 hero-text">
-                    <h2 class="hero_title">Hello, I'm Rodney</h2>
-                    <p class="hero_desc">I am a Web Developer & Designer in South Florida</p>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h3 class="card-title mt-3">Website Designer</h3>
+                            <p class="card-text mt-3"> example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h3 class="card-title mt-3">Website Developer</h3>
+                            <p class="card-text mt-3"> example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'  ></i>
+                            <h3 class="card-title mt-3">Website API placement</h3>
+                            <p class="card-text mt-3"> example</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

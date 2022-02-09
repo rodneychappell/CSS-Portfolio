@@ -1,6 +1,6 @@
 .bgimage {
-height: 100px;
-background:navy ;
+height: 900px;
+background:navy ; 
 background-size: cover;
 position: relative;
 }
@@ -20,4 +20,40 @@ position: relative;
 
 .hero_title {
     font-size: 15px;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+.navbar-toggler{
+    padding: 2px 5px;
+    background-color: papayawhip;
+    border-color: olivedrab;
+    color: olive;
+    line-height: 10px;
+}
+
+
+.servicesIcon {
+    font-size: 35px;
+    width: 150%;
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: papayawhip;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+
+  .card-title {
+    text-align: center;
 }
