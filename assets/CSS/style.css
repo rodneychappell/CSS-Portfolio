@@ -57,3 +57,8 @@ position: relative;
   .card-title {
     text-align: center;
 }
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
