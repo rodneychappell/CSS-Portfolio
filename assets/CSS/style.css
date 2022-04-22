@@ -1,8 +1,16 @@
 .bgimage {
-height: 900px;
+height: 800px;
 background:navy ; 
 background-size: cover;
 position: relative;
+}
+
+.navbar-toggler{
+    color: olive;
+    background-color: papayawhip;
+    border-color: olivedrab;
+    padding: 2px 5px;
+    line-height: 10px;
 }
 
 .hero-text {
@@ -23,15 +31,8 @@ position: relative;
 }
 
 .imageAboutPage {
-    width: 100%;
-}
-
-.navbar-toggler{
-    padding: 2px 5px;
-    background-color: papayawhip;
-    border-color: olivedrab;
-    color: olive;
-    line-height: 10px;
+    width: 300px;
+    height: 300px;
 }
 
 
